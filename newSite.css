@@ -1,10 +1,34 @@
 body{
 	padding:0px;
 	margin:0px;
+
+	background-color: rgb(215 215 215); 
 }
 
+.header{
+	background-color: lightblue;
+
+	width:99vw;
+	height:15vh;
+
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+
+
+	z-index:10;
+}
+
+
+
+
+
+
+
+
+
 .sections{
-/*background-color: grey;*/
+background-color: rgb(215 215 215);
 
 width:99vw;
 
