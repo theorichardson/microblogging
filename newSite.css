@@ -12,17 +12,29 @@ p{
 }
 
 h1{
-
+	color: rgb(0 140 69);
 }
 
 h2{
 	font-weight: lighter;
 	margin:0px;
+
+	color: rgb(80 80 80);
 }
 
-									.header{
+p{
+	color: rgb(80 80 80);
 
-									background-color: rgb(100 100 100);
+	font-size: 1vw;
+}
+
+strong{
+	color: rgb(0 140 69)
+}
+
+									/*.header{
+
+									background-color: rgb(190 190 190);
 
 									width:99%;
 									height:12vh;
@@ -38,45 +50,45 @@ h2{
 
 
 									z-index:10;
-									}
+									}*/
 
-/*.header{
-	background-color: rgb(100 100 100);
+.header{
+	background-color: rgb(190 190 190);
 
 	width:99%;
-	height:8vh;
+	height:6vh;
 	padding:1vw;
 	padding-left:14vw;
 	padding-bottom: 0px;
+	padding-top: .5vw;
 
 
 	position: -webkit-sticky;
   	position: sticky;
-  	top: 0vh;
+  	top: -2vh;
 
 
 	z-index:10;
 }
 
 .headerSm{
-	background-color: rgb(100 100 100);
+	background-color: rgb(190 190 190);
 
 	width:99%;
 	height:3.5vh;
 	padding:1vw;
 	padding-left:14vw;
-	padding-bottom: 2.75vw;
-	padding-top: .5vw;
+	padding-bottom: 1vw;
+	padding-top: .75vw;
 
 	position: -webkit-sticky;
   	position: sticky;
-  	top: 2vh;
-
+  	top: 0.5vh;
 
 	z-index:1;
 
 	display: block;
-}*/
+}
 
 .title{
 	position: sticky;
