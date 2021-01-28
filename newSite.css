@@ -12,7 +12,7 @@ p{
 }
 
 h1{
-	color: rgb(0 140 69);
+	color: rgb(0 150 69);
 }
 
 h2{
@@ -29,7 +29,7 @@ p{
 }
 
 strong{
-	color: rgb(0 140 69)
+	color: rgb(0 150 69)
 }
 
 									/*.header{
@@ -91,6 +91,7 @@ strong{
 }
 
 .title{
+	position: -webkit-sticky;
 	position: sticky;
 	top:1vw;
 
@@ -123,10 +124,16 @@ display:flex;
 flex-direction: column;
 
 text-align: center;
+
+scroll-snap-type:y-mandatory;
 }
 
 .section{
 /*background-color: blue;*/
+
+scroll-margin: 10px;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
 
 width:99vw;
 height: 100vh;
@@ -137,12 +144,20 @@ flex-wrap: nowrap;
 text-align: center;
 }
 
+/*.container {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
+}
+
+.child {
+  scroll-snap-align: start;
+}*/
+
+
 						.sectionLeft{
 							/*background-color: yellow;
 							border:1px solid blue;*/
-
-
-							position: relative;
 
 							width:30%;
 
@@ -184,7 +199,6 @@ height: 60vh;
 }
 
 }*/
-
 
 
 
