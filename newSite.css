@@ -2,7 +2,7 @@ body{
 	padding:0px;
 	margin:0px;
 
-	background-color: rgb(215 215 215); 
+	/*background-color: rgb(215 215 215);*/ 
 
 	overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ h2{
 	font-weight: lighter;
 	margin:0px;
 
-	color: rgb(80 80 80);
+	color: rgb(150 150 150);
 }
 
 p{
@@ -53,7 +53,7 @@ strong{
 									}*/
 
 .header{
-	background-color: rgb(190 190 190);
+	background-color: white;
 
 	width:99%;
 	height:6vh;
@@ -72,7 +72,7 @@ strong{
 }
 
 .headerSm{
-	background-color: rgb(190 190 190);
+	background-color: white;
 
 	width:99%;
 	height:3.5vh;
@@ -109,6 +109,87 @@ display: inline-block;
 }
 
 
+
+
+
+
+
+/*----------IMAGES GRID------------*/
+
+.images-grid{
+		width: 100%;
+        text-align: center;
+
+        padding-top:3vw;
+}
+
+#inner-div {
+        display: inline-block;
+        margin: 3vw; /*MAKE THIS 1 AND THE WIDTH 30 FOR LARGER MAPS*/
+
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+
+        width:20vw;
+        height: 20vw;
+      }
+
+      #inner-div img{
+        display: inline-block;
+        width:20vw;
+      }
+
+
+
+
+
+
+/*.images-grid input[type=checkbox] {
+  display: none
+}
+
+.images-grid img {
+  height: 20vw;
+  width:100%;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.images-grid input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}*/
+
+
+
+
+
+
+
+
+
+
+#inner-divX {
+        display: inline-block;
+        margin: 0vw;
+
+        width:10vw;
+        height: 20vw;
+
+        padding-left:4vw;
+        padding-right:4vw;
+      }
+
+      #inner-divX img{
+        display: inline-block;
+        width:13vw;
+      }
+
+
+
+
+
+
 .video video{
 	width:72vw;
 }
@@ -116,7 +197,7 @@ display: inline-block;
 
 
 .sections{
-background-color: rgb(215 215 215);
+/*background-color: rgb(215 215 215);*/
 
 width:99vw;
 
@@ -131,17 +212,14 @@ scroll-snap-type:y-mandatory;
 .section{
 /*background-color: blue;*/
 
-scroll-margin: 10px;
-  scroll-snap-align: start;
-  scroll-snap-stop: normal;
-
 width:99vw;
-height: 100vh;
 
 display:flex;
 flex-wrap: nowrap;
 
 text-align: center;
+
+padding-bottom:6vw;
 }
 
 /*.container {
@@ -163,10 +241,11 @@ text-align: center;
 
 							padding:9vw;
 							padding-right: 4vw;
-							padding-bottom: 0px;
+							padding-bottom: 0vw;
 							padding-top:0vw;
 							margin:5vw;
 							margin-right:0px;
+							margin-top:3vw;
 
 							text-align: left;
 						}
@@ -179,11 +258,12 @@ text-align: center;
 
 
 							padding:9vw;
-							padding-bottom: 0px;
+							padding-bottom: 0vw;
 							padding-left: 4vw;
 							padding-top:0vw;
 							margin:5vw;
 							margin-left: 0px;
+							margin-top:3vw;
 
 							text-align: left;
 						}
